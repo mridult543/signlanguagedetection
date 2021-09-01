@@ -1,0 +1,66 @@
+h1 {
+  font-family: Georgia, sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  display: flex;
+  justify-content: center;
+  color: rgb(245, 229, 220);
+}
+video {
+    border: 30px groove rgb(97, 97, 143);
+    padding: 5px;
+    width:60vh ;
+    height:60vh;
+    min-height:350px;
+    min-width:350px;
+    margin-bottom: 10px;
+ }
+ button {
+   background-color: #1b2d7c; /* navy blue */
+   border: none;
+   border-radius: 12px;
+   color: white;
+   padding: 15px 32px 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   margin: 0 auto;
+   font-size: 16px;
+   margin-bottom: 10px;
+ }
+.button-style {
+    transition-duration: 0.4s;
+    cursor:pointer
+  }
+  
+.button-style:hover {
+    background-color: #6b71db;
+    color: white;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #082f3d, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#prediction{
+    display: flex;
+    justify-content: center;
+    font-family: 'Brush Script MT', cursive;
+    font-size: xx-large;
+    color: white;
+}
+

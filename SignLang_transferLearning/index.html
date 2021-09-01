@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<script src="webcam.js"></script>
+<script src="sign-dataset.js"></script>
+</head>
+<body>
+	<div>
+		<div>
+			<video style="display: block;margin: 0 auto;" autoplay playsinline muted id="wc" width="224" height="224"></video>
+		</div>
+	</div>
+	<button type="button" id="0" onclick="handleButton(this)" >0</button>
+	<button type="button" id="1" onclick="handleButton(this)" >1</button>
+	<button type="button" id="2" onclick="handleButton(this)" >2</button>
+	<button type="button" id="3" onclick="handleButton(this)" >3</button>
+	<button type="button" id="4" onclick="handleButton(this)" >4</button>
+	<button type="button" id="5" onclick="handleButton(this)" >5</button>
+	<button type="button" id="6" onclick="handleButton(this)" >6</button>
+	<button type="button" id="7" onclick="handleButton(this)" >7</button>
+	<button type="button" id="8" onclick="handleButton(this)" >8</button>
+	<button type="button" id="9" onclick="handleButton(this)" >9</button>
+	<div id="zerosamples">Samples for 0:</div>
+	<div id="onesamples">Samples for 1:</div>
+	<div id="twosamples">Samples for 2:</div>
+	<div id="threesamples">Samples for 3:</div>
+	<div id="foursamples">Samples for 4:</div>
+	<div id="fivesamples">Samples for 5:</div>
+	<div id="sixsamples">Samples for 6:</div>
+	<div id="sevensamples">Samples for 7:</div>
+	<div id="eightsamples">Samples for 8:</div>
+	<div id="ninesamples">Samples for 9:</div>
+    <p>Upload pretrained model to browser.</p>
+	<input type="file" id="select-file">
+	<button type="submit" onclick="onSubmit()">Upload model</button>
+	<br>
+	
+	<!--<p>Upload pretrained model weights to browser.</p>
+	<input type="file" id="select-weight">
+	<button type="submit" onclick="onSubmitWt()">Upload model weight.</button>
+	<br>-->
+	<button type="button" id="train" onclick="doTraining()" >Train Network</button>
+	<div id="dummy">Once training is complete, click 'Start Predicting' to see predictions, and 'Stop Predicting' to end. Once you are happy with your model, click 'Download Model' to save the model to your local disk.</div>
+	<button type="button" id="startPredicting" onclick="startPredicting()" >Start Predicting</button>
+	<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+    <button type="button" id="saveModel" onclick="saveModel()" >Download Model</button>
+	<div id="prediction"></div>
+</body>
+
+<script src="main.js"></script>
+</html>
