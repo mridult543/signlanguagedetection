@@ -1,3 +1,3 @@
 # signlanguagedetection
-### Deployed URL :-
+### Deployment URL :-
 https://sign-lang-website.herokuapp.com/
